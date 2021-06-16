@@ -1,7 +1,6 @@
 /* Enter your solutions in this file */
 #include <stdio.h>
 #include <stdio.h>
-/*max function*/
 int max(int a[],int n)
 {
 	int max=0;
@@ -14,7 +13,6 @@ int max(int a[],int n)
 	}
 	return max;
 }
-/*min function*/
 int min(int a[],int n)
 {
 	int min=a[0];
@@ -38,7 +36,7 @@ float average(int a[],int n)
 	avg=sum/n;
 	return avg;
 }
-/*mode function*/
+
 int mode(int a[],int n)
 {
 	int lmax=max(a,n);
